@@ -145,7 +145,7 @@
   &:focus {
     outline: none;
     border-color: #0993f5;
-    padding: 21px 15px 7px;
+    padding: 40px 15px 7px;
   }
 
   &:not(:placeholder-shown) {
@@ -162,9 +162,9 @@
 
   &:focus ~ .label,
   &:not(:placeholder-shown) ~ .label {
-    top: 15px;
+    top: 10px;
     //@include Montserrat_13_500;
-    color: var(--GRAY_TEXT_COLOR);
+    color: #000000;
   }
 }
 
@@ -176,7 +176,7 @@
   transition: 0.2s ease all;
   pointer-events: none;
   //@include Montserrat_15_500;
-  color: var(--GRAY_TEXT_COLOR);
+  color: #000;
 }
 
 .valid {
